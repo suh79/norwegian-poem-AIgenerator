@@ -1,1 +1,1 @@
-# norwegian-poem-AIgenerator
+# This project is ment to give knowledge of AI and how to generate norwegian poems, Enjoy
