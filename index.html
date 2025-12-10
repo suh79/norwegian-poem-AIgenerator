@@ -5,11 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>AI Poem Generator</title>
+    <title>AI Norwegian Poem Generator</title>
   </head>
   <body>
-    <h1>Welcome to the Norwegian Poem Generator</h1>
-    <div id="poem-output"></div>
+    <header>
+       <h1>AI Norwegian Poem Generator</h1>
+    </header>
+
+    <main>
+      <form>
+        <input
+          type="text"
+          id="theme-input"
+          placeholder="Enter a theme for the poem"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <button type="submit" id="generate-button">Generate Poem</button>
+        <div id="poem-output">Here comes the poem</div>
+      </br>
+      </form>
+    </main>
+
+   
+    
 
     <footer>
       This AI project was coded by
